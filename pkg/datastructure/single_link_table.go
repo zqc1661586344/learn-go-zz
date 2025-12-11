@@ -1,6 +1,8 @@
 package datastructure
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type Node[T any] struct {
 	Value T
@@ -12,14 +14,14 @@ type SingleLinkNode[T any] struct {
 	length int
 }
 
-// IsEmpty 是否为空
-func (s *SingleLinkNode[T]) IsEmpty() bool {
-	return s.head == nil
-}
-
 // NewSingleLinkNode 构造函数
 func NewSingleLinkNode[T any]() *SingleLinkNode[T] {
 	return &SingleLinkNode[T]{}
+}
+
+// IsEmpty 是否为空
+func (s *SingleLinkNode[T]) IsEmpty() bool {
+	return s.head == nil
 }
 
 // InsertValueToTail 在尾部插入数据
