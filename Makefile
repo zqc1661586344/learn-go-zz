@@ -13,7 +13,7 @@ default: run
 
 # 运行项目
 run:
-	$(GO) run cmd/main.go
+	$(GO) run cmd/codepractice/main.go
 
 # 构建项目
 build:

@@ -5,11 +5,12 @@ import (
 )
 
 func main() {
-	// code practice
+	// 做题
 	// codepractice.HandlePratice01Entry()
 	// codepractice.HandlePratice02Entry()
 
 	// 数据结构
 	// datastructure.HandleMessageQueue()
-	datastructure.HandleSingleLinkTableEntry()
+	// datastructure.HandleSingleLinkTableEntry()
+	datastructure.HandleBinarySearchTreeEntry()
 }
